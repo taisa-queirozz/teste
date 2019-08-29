@@ -1,0 +1,139 @@
+body {
+  padding-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  background: #1d1d1d;
+ }
+
+.carousel-plugin{
+    width: 100%;
+}
+
+.video-corousel{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 600px;
+}
+.carousel-itens {
+  
+}
+.item.item-carousel{
+  position: relative;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-table;
+    width: 540px;
+}
+.main-video-item {
+    height: 6rem;
+    background: #fff;
+    border-radius: 25px;
+    margin: 10px;
+    overflow: hidden;
+    min-width: 280px;
+    width: 480px;
+    display: flex;
+    flex-direction: row;
+}
+.main-video-item-imagem {
+    margin: 5px 0 5px 5px;
+    height: calc(100% - 10px);
+    width: 6rem;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+.main-video-item-info {
+    display: inline-flex;
+    padding: 0 1rem;
+    position: relative;
+    height: calc(100% - 2rem);
+    margin: 1rem 0;
+    width: 510px;
+    max-width: calc(100% - 12rem);
+    flex-direction: column;
+}
+
+.main-video-item-info-titulo {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.main-video-item-info-titulo div {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto auto;
+}
+.main-video-item-info-titulo .raczum-icon {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+}
+.main-video-item-info-logo-preco p, .main-video-item-info-titulo h6 {
+    text-align: left;
+    font-size: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.main-video-item-info-titulo p {
+    font-size: .6rem;
+    color: #363636;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+}
+.main-video__item__info__titulo div {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto auto;
+}
+.main-video-item-info-titulo-share {
+    margin-right: 0!important;
+    width: 5rem!important;
+}
+
+.main-video-item-info-logo-preco {
+    display: flex;
+    flex-direction: row;
+    margin-top: .5rem;
+}
+
+.main-video-item-info-logo-preco h4 {
+    font-size: 16px;
+    color: #35c246;
+} 
+
+.main-video-item-cta {
+    background: #ffe200;
+    width: 6rem;
+    height: 100%;
+    display: inline-flex;
+    vertical-align: top;
+}
+.main-video-item-cta a{
+      display: block;
+    vertical-align: middle;
+    text-align: center;
+    top: 40%;
+    position: relative;
+    width: 100%;
+}
+.main-video-item-cta a:hover{
+  text-decoration: none;
+}
+
+.main-video-item-cta h6 {
+    font-size: .7rem;
+}
+
+
